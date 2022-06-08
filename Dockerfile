@@ -18,6 +18,7 @@ RUN pip install python-dotenv
 RUN pip install matplotlib-venn
 RUN pip install Levenshtein
 RUN pip install slackweb
+RUN pip install transformers
 
 RUN pip install mlflow
 RUN echo "export PATH=\"`python3 -m site --user-base`/bin:\$PATH\"" >> ~/.bashrc
